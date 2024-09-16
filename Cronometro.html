@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cronometro</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+          // Cargar el footer desde footer.html
+          $('footer').load('footer.html');
+        });
+      </script>
+
+      
+</head><!-- Encabezado -->
+
+<body>
+    <header></header>
+    <div class="cronometro">
+        <div class="time-display">
+          <span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <div class="controls">
+          <button class="control-btn" id="back">
+            &#x25C0;
+          </button>
+          <button class="control-btn" id="reset">
+            &#x21BB;
+          </button>
+        </div>
+    </div>
+
+    <footer></footer>
+</body>
+</html>
