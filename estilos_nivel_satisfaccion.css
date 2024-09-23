@@ -64,20 +64,20 @@
   gap: 23px;
 }
 
-.cara button{
+.cara{
+  display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin: 0 auto;
   gap: 23px;
-
   border: none;
-  border-radius: 100%; /* Esto hace que el botón sea redondo */
   font-size: 18px;
   text-align: center;
   line-height: 50px; /* Para centrar el contenido verticalmente */
   cursor: pointer;
 }
+
 
 
 
